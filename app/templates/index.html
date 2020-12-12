@@ -1,26 +1,4 @@
-<!DOCTYPE HTML>
-
-<html lang="es">
-{% load static %}
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BANCA EN LINEA</title>
-    </head>
-
-    <body>
-        <ul>
-            <li><a href=”#”>INICIO</a></li>
-            <li><a href=”#”>CREAR CUENTA</a></li>
-            <li><a href=”#”>VER CUENTAS</a></li>
-            <li><a href=”#”>PAGO DE PLANILLA</a></li>
-            <li><a href=”#”>CHEQUES</a></li>
-            <li><a href=”#”>Contacto</a></li>
-        </ul>
-
-        {% block content %}
-        {% endblock %}
-
-    </body>
-
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    <h1>TITULO</h1>
+{% endblock %}
