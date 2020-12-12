@@ -30,3 +30,35 @@ body {
     font-size: 25px;
 
 }
+/*LOGIN ------------------------------------------*/
+
+.formulario {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text_box {
+    background-color: azure;
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px 3%;
+}
+
+.text_box::placeholder {
+    font-size: 1.2em;
+}
+
+.button {
+    background-color: transparent;
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
