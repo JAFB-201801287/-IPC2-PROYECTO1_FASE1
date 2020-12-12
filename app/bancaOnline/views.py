@@ -20,3 +20,6 @@ def retiro(request):
 
 def deposito(request):
     return render(request, 'deposito.html')
+
+def prestamo(request):
+    return render(request, 'prestamo.html')

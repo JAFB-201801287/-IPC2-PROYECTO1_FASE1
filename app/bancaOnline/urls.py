@@ -25,4 +25,5 @@ urlpatterns = [
     path('cuenta/', views.detalle_cuenta, name='detalle_cuenta'),
     path('retiro/', views.retiro, name='retiro'),
     path('deposito/', views.deposito, name='deposito'),
+    path('prestamo/', views.prestamo, name='prestamo'),
 ]
