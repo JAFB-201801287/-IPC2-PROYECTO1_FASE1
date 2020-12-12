@@ -10,13 +10,12 @@
     <body>
 
         <ul id="navbar">
-            <li><a href="/">INICIO</a></li>
-            <li><a href="login/">INICIO DE SESION</a></li>
-            <li><a href=”#”>CREAR CUENTA</a></li>
-            <li><a href=”#”>VER CUENTAS</a></li>
-            <li><a href=”#”>PAGO DE PLANILLA</a></li>
-            <li><a href=”#”>CHEQUES</a></li>
-            <li><a href=”#”>CONTACTO</a></li>
+            <li><a href="{% url 'home' %}">INICIO</a></li>
+            <li><a href="{% url 'login' %}">INICIO DE SESION</a></li>
+            <li><a href="{% url 'tabla_cuentas' %}">VER CUENTAS</a></li>
+            <li><a href="{% url 'home' %}">PAGO DE PLANILLA</a></li>
+            <li><a href="{% url 'home' %}">CHEQUES</a></li>
+            <li><a href="{% url 'home' %}">CONTACTO</a></li>
         </ul>
 
         <div class="title_principal">

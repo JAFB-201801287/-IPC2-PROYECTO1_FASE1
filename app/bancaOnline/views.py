@@ -8,3 +8,6 @@ def index(request):
 
 def login(request):
     return render(request, 'login.html')
+
+def cuentas(request):
+    return render(request, 'cuentas.html')

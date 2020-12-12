@@ -62,3 +62,22 @@ body {
     background-color: #4CAF50;
     color: white;
 }
+
+/* TABLA DE CUENTAS ------------------------------------------------*/
+
+.tabla {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.tabla, th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: honeydew;
+}
+
+.enlace {
+    text-decoration: none;
+}

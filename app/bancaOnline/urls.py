@@ -19,6 +19,7 @@ from . import views
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('', views.index, name='HOME'),
-    path('login/', views.login, name='LOGIN'),
+    path('', views.index, name='home'),
+    path('login/', views.login, name='login'),
+    path('cuentas/', views.cuentas, name='tabla_cuentas'),
 ]
