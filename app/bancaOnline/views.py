@@ -17,3 +17,6 @@ def detalle_cuenta(request):
 
 def retiro(request):
     return render(request, 'retiro.html')
+
+def deposito(request):
+    return render(request, 'deposito.html')
