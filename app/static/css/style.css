@@ -81,3 +81,11 @@ body {
 .enlace {
     text-decoration: none;
 }
+
+/* DETALLE CUENTA*/
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

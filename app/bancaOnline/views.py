@@ -11,3 +11,9 @@ def login(request):
 
 def cuentas(request):
     return render(request, 'cuentas.html')
+
+def detalle_cuenta(request):
+    return render(request, 'detalleCuenta.html')
+
+def retiro(request):
+    return render(request, 'retiro.html')
